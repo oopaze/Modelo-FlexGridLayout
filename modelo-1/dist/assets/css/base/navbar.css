@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding: 0 15px;
+
+    height: 100%;
+}
+
+.nav-options {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 20px;
+    
+    flex-grow: 1;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: auto;
+    min-height: 40px;
+    margin: 0 10px;
+    padding: 0px 15px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    color: rgba(37, 37, 37, 0.7);
+
+}
+
+.nav-item:hover {
+    color: rgb(34, 34, 34);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.315);
+}
