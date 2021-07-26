@@ -1,0 +1,14 @@
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+    font-size: 0.8rem;
+
+    padding: 0 10px;
+}
+
+.footer-container a:hover {
+    text-decoration: underline;
+}
