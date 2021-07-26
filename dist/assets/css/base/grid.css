@@ -1,0 +1,37 @@
+
+.grid {
+    display: grid;
+    grid-template: 
+        "sidebar nav nav" 100px
+        "sidebar content content" minmax(300px, 1fr)
+        "sidebar footer footer" 50px
+        / minmax(80px, 1fr) 3fr 2fr;
+
+    align-content: space-between;
+
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.nav {
+    grid-area: nav;
+}
+
+.content {
+    grid-area: content;
+    margin: 2%;
+}
+
+.grid-item {
+    background-color: white;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.116);;
+    
+}
